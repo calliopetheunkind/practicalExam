@@ -1,0 +1,53 @@
+body{
+    background-color: lightcyan;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+    font-family: "Futura Lt BT";
+
+}
+
+
+
+#box{
+    background-color: aliceblue;
+    display: grid;
+    place-items: center;
+    width: 500px;
+    height: 400px;
+    border-radius: 8px;
+    outline-style: solid;
+    outline-color: teal;
+}
+
+#form{
+    display: grid;
+    place-items: center;
+    width: 500px;
+    height: 200px;
+
+}
+
+#title{
+    color: teal;
+}
+
+
+#response{
+    color: teal;
+}
+
+input{
+    background-color: aliceblue;
+    height: 25px;
+    width: 400px;
+}
+
+button{
+    background-color: teal;
+    color: white;
+    width: 400px;
+    height: 30px;
+}
